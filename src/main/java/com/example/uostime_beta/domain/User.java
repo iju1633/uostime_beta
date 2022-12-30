@@ -1,9 +1,11 @@
 package com.example.uostime_beta.domain;
 
 import com.example.uostime_beta.converter.UserRoleConverter;
-import jakarta.persistence.*;
+
 import lombok.*;
 import lombok.experimental.Accessors;
+
+import javax.persistence.*;
 
 @Entity
 @Data

@@ -6,7 +6,7 @@ import com.example.uostime_beta.dto.UserDTO;
 import com.example.uostime_beta.repository.UserRepository;
 import com.example.uostime_beta.util.Const;
 import com.example.uostime_beta.util.SessionConst;
-import jakarta.servlet.http.HttpSession;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.access.AccessDeniedException;
@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.SessionAttribute;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
+import javax.servlet.http.HttpSession;
 import java.util.Objects;
 
 @Service

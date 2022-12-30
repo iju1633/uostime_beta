@@ -3,10 +3,11 @@ package com.example.uostime_beta.dto;
 import com.example.uostime_beta.converter.UserRoleConverter;
 import com.example.uostime_beta.domain.User;
 import com.example.uostime_beta.domain.UserRole;
-import jakarta.persistence.Convert;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+
+import javax.persistence.Convert;
 
 @Getter
 @Setter

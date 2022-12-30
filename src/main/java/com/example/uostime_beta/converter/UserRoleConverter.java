@@ -7,8 +7,10 @@ package com.example.uostime_beta.converter;
  */
 
 import com.example.uostime_beta.domain.UserRole;
-import jakarta.persistence.AttributeConverter;
-import jakarta.persistence.Converter;
+
+import javax.persistence.AttributeConverter;
+import javax.persistence.Converter;
+
 
 @Converter // 해당 변환 클래스에 지정된 타입에 대해서는 모두 해당 변환 클래스의 메소드를 이용해 DB 와의 통신에서 값을 변환하려면 @Converter(autoApply = true) 옵션
 public class UserRoleConverter implements AttributeConverter<UserRole, String> {
